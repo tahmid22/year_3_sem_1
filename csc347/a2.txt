@@ -1,0 +1,64 @@
+Group:
+badshah1 1002287492
+mostaf34 1002489032
+
+CSC347 Assignment 2 Marking Scheme
+
+TOTAL: [52.5 /56]
+
+Question 1: Software Security [21 /23]
+	1A: FourFours Vulnerabilities [9.5 /10]
+			[2 /2] OWASP A8: Cross Site Request Forgery
+			[1 /1] OWASP A6: Sensitive Data Exposure
+			[1.5 /2] OWASP A2: Session Fixation
+			[1 /1] OWASP A4: Insecure Direct Object Reference
+			[2 /2] OWASP A3: Cross Site Scripting
+			[2 /2] OWASP A1: SQL Injection
+
+	1B: FourFours Repairs [8.5 /10]
+		[7.5 /9] Fix vulnerabilities
+			[1.5 /1.5] Fix A8: Cross Site Request Forgery
+			[1.5 /1.5] Fix A6: Sensitive Data Exposure
+			[1.5 /1.5] Fix A2: Session Fixation
+			[0 /1.5] Fix A4: Insecure Direct Object Reference
+			[1.5 /1.5] Fix A3: Cross Site Scripting
+			[1.5 /1.5] Fix A1: SQL Injection
+		[1 /1] Overall cleanliness
+		
+
+	1C: Extract Passwd/Shadow Files [3 /3]
+		3 Marks for good explanation + ways to prevent this attack
+		2 Marks for a good explanation
+
+
+Question 2: Compromised VM [17 /17]
+	[1 /1] E. Recently Update Files
+	[2 /2] F. Difference in files
+				Brief, Full
+	[1 /1] G. Bash History
+	[1 /1] H. Change in passwords/accounts
+	[1 /1] I. User Login
+	[1 /1] J. Software Installation
+	[1 /1] K. Cron Jobs
+	[1 /1] L. Startup services
+	[1 /1] M. rc.d startup processes
+	[3 /3] N. Log files
+	[2 /2] O. Suspicious IP Addresses
+	[1 /1] P. John the Ripper
+	[1 /1] Q. Your opinion of the VM
+
+
+Question 3: Cyrptography [14.5/16]
+	3A: OpenSSL [2/2]
+		[1/1] Correctness
+		[1/1] Explanation
+
+	3B: mine.py [4/4]
+		[3/3] Correctness
+		[1/1] Quality/clarity
+		
+	3C: Public Key Cryptography [8.5/10]
+		[2/2] openssl/caSetup # TMI for cakey.pem, poor description of cert/cmd
+		[2/2] openssl/caAnswerCSR
+		[0.5/2] makeCSR/doIt
+		[4/4] crypto/doIt # it's okay, my name is hard to spell :)
